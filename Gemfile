@@ -46,8 +46,8 @@ group :development, :test do
 end
 
 # Authentication resources
-gem 'omniauth'
-gem 'omniauth-oauth2'
+gem 'omniauth', '>= 2.0.0'
+gem 'omniauth-oauth2', '>= 1.7.1'
 #gem 'omniauth-microsoft_v2_auth'
 gem 'omniauth-microsoft_v2_auth', path: './omniauth-microsoft_v2_auth'
 
