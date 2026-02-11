@@ -47,7 +47,7 @@ end
 
 # Authentication resources
 gem 'omniauth'
-gem 'omniauth-oauth2'
+gem 'omniauth-oauth2', '>= 1.5.0'
 #gem 'omniauth-microsoft_v2_auth'
 gem 'omniauth-microsoft_v2_auth', path: './omniauth-microsoft_v2_auth'
 
